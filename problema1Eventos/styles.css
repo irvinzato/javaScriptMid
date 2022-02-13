@@ -1,0 +1,52 @@
+body {
+    margin: 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(124, 124, 124, 0.548);
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    transition: border .2s;
+}
+
+input:hover{
+    border: 2px solid rgb(134, 0, 134);
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+input[type="submit"]{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover{
+    border: none;
+    background: rgb(51, 160, 0);
+}
+
+h2{
+    margin-top: 5px;
+    margin: auto;
+}
+
+.red{
+    color: rgb(255, 0, 0);
+}
+
+.green{
+    color: rgb(46, 146, 0);
+}
