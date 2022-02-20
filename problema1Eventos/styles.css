@@ -49,4 +49,13 @@ h2{
 
 .green{
     color: rgb(46, 146, 0);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.resultado{
+    display: flex;
+    margin: 10px auto;
+    width: 50%;
+    background: rgba(124, 124, 124, 0.548);
 }
