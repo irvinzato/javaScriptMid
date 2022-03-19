@@ -1,0 +1,24 @@
+/*HOJA DE TEORIA
+--- Call Backs ---
+- Concepto(Function in Function) - Es una funcion dentro de otra funcion
+- Ejemplos
+- Problemas de los CallBacks
+
+--- Promesas ---
+- Concepto - Son un objeto en ESPECIFICO con datos encapsulados que tienen 2 callBacks(resolve,reject), representan algo
+    promesa.then() es un metodo de la promesa que nos da acceso al valor que tiene resolve
+    es un metodo que recibe un callBack, .then() ES PARA CUANDO TODO SALE BIEN
+    .catch() es cuando ocurren errores y tambien lleva dentro un callBack
+- ¿Que puede representar?
+    Terminacion de una operacion sincrona
+    Fracaso de una operacion asincrona
+- Ejemplos y solucion al problema de los CallBacks
+
+--- Funciones asincronas(Operador Async) ---
+Las promesas son asincronas, trabajan en tiempo real
+Las funciones asyncronas trabajan con promesas
+- Usos
+- Operador Await - await accede al valor que retorna la promesa, no deja que pase a la siguiente hasta que obtenga la primera
+
+//Quedamos en problema - 5:42:00
+*/

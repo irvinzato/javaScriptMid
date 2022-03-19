@@ -1,0 +1,79 @@
+.modalFondo{
+    background: rgb(160, 160, 160);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+}
+
+.modal{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+}
+
+.formularioNotas{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgb(250, 74, 197);
+   
+}
+
+/*Los input tienen border feos, siempre none en border*/
+input{
+    border: none;
+}
+
+#nota-alumno{
+    width: 50px;
+    margin: 5px;
+    padding: 7px;
+}
+
+#enviar-nota{
+    width: 100px;
+    padding: 7px;
+}
+
+@keyframes aparecer{
+    from {
+        opacity: 0; 
+    }
+    to{
+        opacity: .7;
+    }
+}
+
+.muestraResultado{
+   display: flex;
+   flex-direction: column;
+   align-items: center;                         /*Para que tambien alinie los botones(inputs)*/
+}
+
+#botonResultado{
+    display: flex;
+    width: 15%;
+    padding: 15px;
+    background: rgb(0, 88, 0);
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+}
+
+#botonResultado:hover{
+    background: rgb(143, 93, 0);
+}
+
+.h2Resultado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}

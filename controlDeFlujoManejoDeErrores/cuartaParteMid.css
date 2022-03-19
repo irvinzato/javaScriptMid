@@ -1,0 +1,25 @@
+/*Hoja de teroria
+FLUJO DEL PROGRAMA
+--- Control de flujo y manejo de errores ---
+- Sentencias de bloque, CON {}
+- Sentencias de control de flujo, CON condicionales if,while, etc.
+- Sentencias de manejo de excepciones
+
+--- Sentencia Switch --- A NIVEL RENDIMIENTO ES MEJOR IFELSE QUE SWITCH
+- Sintaxis y clausula case
+- break
+- default
+
+--- Excepciones y Tipos de Excepciones ---
+- Definicion y usos
+- Excepciones ECMASScript - Buscar en la documentacion
+- DOMException y DOMError - Buscar en la documentacion
+
+--- Try... Catch ---
+- Sintaxis
+- Objeto error
+- Catch Incondicional, son condiciones
+- Catch Condicional, ocupa el IF
+- Sentencia Throw, puede ser objeto o cualquier variable, LANZA UNA EXCEPCION, Da un error al programa, el "error" de catch va a ser igual a lo que pongamos en throw
+- Finally, SE EJECUTA A TODA COSTA, PASE LO QUE PASE
+*/
