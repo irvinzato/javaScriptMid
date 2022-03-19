@@ -1,0 +1,102 @@
+/* HOJA DE TEORIA  5:58:00 TODO ESTE CAPITULO SE TRABAJO CON UN SERVIDOR (htdocs)
+
+- Definicion : Es una peticion que enviamos a un servidor y este servidor nos devuelve una DATA(informacion)
+
+- Cliente y Servidor: Es un navegador pidiendo informacion a un servidor, el navegador es nuestro cliente y el servidor guarda la informacion
+
+- No guardan informacion, NO DEJA RASTROS
+
+--- DATOS ESTRUCTURADOS (JSON) ---
+Son casi igual que los array asociativos, los nombres de variables tienen comillas, es la diferencia
+
+- Definicion, usos y sintaxis
+
+- Serializacion significa que el JSON es una cadena de texto y Deserializacion es que es un Objeto, no tiene comillas simples en la declaracion
+Normalmente se manda como un string y se recibe como string, y usamos el metodo parse para trasnformarlo como objeto
+
+6:13:00
+- Metodo parse() - Convierte un string con estructura JSON a formato Json (deserializar)
+
+- Metodo stringify() - Convierte un dato de JavaScript en una cadena de texto JSON (serializar) 
+
+- JSON PolyFill - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+
+--- AJAX --- 6:18:00
+Asincrono JavaScript XML
+Enviar solicitud en Paralelo, responde en paralelo y obtenemos la respuesta
+
+- Introduccion e instalacion del servidor - INSTALAR XAMPP, en htdocs vienen las carpetas a trabajar
+
+- Objeto XMLHttpRequest
+
+- Enviar peticiones GET
+
+- Trabajar el resultado de las peticiones
+
+- Objeto ActiveXObject (Messirve)
+
+- Nueva forma de trabajar el resultado
+
+- Enviar peticion POST
+
+- Objeto FormData
+TODAS LAS PRACTICAS ESTAN EN htdocs dentro de la campeta del XAMPP
+
+--- FETCH --- 6:53:00
+Es una forma de trabajar con el objeto XMLHttpRequest
+Siempre nos devuelve una promesa encapsulada
+
+- Introduccion
+
+- Basado en promesas
+
+- Objeto fetch
+
+Se usan estos metodos para poder convertir ese resultado a un tipo de dato valido
+- text()
+
+- json()
+
+- blob()
+
+- formData()
+
+- arrayBuffer()
+
+Trabajos en htdocs del XAMPP
+
+AJAX no es soportado para todos los navegadores
+Cuando recibimos informacion hay que convertir de texto a Json - Deserealizar JSON.parse()
+Cuando enviamos informacion hay que convertir de Json a texto - Serializar JSON.stringify()
+
+--- PETICIONES POST --- 6:42:00
+En las peticiones Post los datos se envian atraves del metodo POST, NO POR URL
+
+
+-- PASAMOS A FETCH --- 6:51:00
+
+-- LIBRERIA AXIOS --- 7:10:00 Es una libreria que al importar su script debe estar arriba del codigo en HTML
+Es el remplazo de FETCH, basada en XMLHTTPREQUEST
+
+- Introduccion e instalacion https://github.com/axios/axios
+
+- Basado en promesas
+
+- Objeto axios
+
+- metodo get() y post()
+
+- formas de enviar los datos
+
+- ventajas
+
+--- FETCH Y AXIOS con Await y Async --- 7:25:00
+Await espera que algo termine de ejecutarse para seguir a lo siguiente y obtiene el valor de las promesas
+
+- Implementacion
+
+- Importacion del Try Catch
+
+--- 7:44:00 Problema Cofl---
+
+*/

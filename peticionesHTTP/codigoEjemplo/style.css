@@ -1,0 +1,36 @@
+/*
+AJAX no es soportado para todos los navegadores
+Cuando recibimos informacion hay que convertir de texto a Json - Deserealizar JSON.parse()
+Cuando enviamos informacion hay que convertir de Json a texto - Serializar JSON.stringify()
+
+--- PETICIONES POST --- 6:42:00
+En las peticiones Post los datos se envian atraves del metodo POST, NO POR URL
+
+
+-- PASAMOS A FETCH --- 6:51:00
+
+-- LIBRERIA AXIOS --- 7:10:00 Es una libreria que al importar su script debe estar arriba del codigo en HTML
+Es el remplazo de FETCH, basada en XMLHTTPREQUEST
+
+- Introduccion e instalacion https://github.com/axios/axios
+
+- Basado en promesas
+
+- Objeto axios
+
+- metodo get() y post()
+
+- formas de enviar los datos
+
+- ventajas
+
+--- FETCH Y AXIOS con Await y Async --- 7:25:00
+Await espera que algo termine de ejecutarse para seguir a lo siguiente y obtiene el valor de las promesas
+
+- Implementacion
+
+- Importacion del Try Catch
+
+--- 7:44:00 Problema Cofl---
+
+*/
